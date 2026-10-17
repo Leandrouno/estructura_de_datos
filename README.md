@@ -12,7 +12,9 @@
 
 *Apuntes, ejemplos y ejercicios organizados para estudiar y practicar C++ desde el navegador.*
 
-[**📚 Aula virtual y grabaciones**](https://udemmvirtual.edu.ar/course/view.php?id=14541) · [**🎥 Ingresar a Meet**](https://meet.google.com/ehg-ehwf-psj) · [**🚀 Abrir repositorio**](https://github.com/Leandrouno/estructura_de_datos)
+[**📚 Aula virtual y grabaciones**](https://udemmvirtual.edu.ar/course/view.php?id=14541) · [**🎥 Ingresar a Meet**](https://meet.google.com/ehg-ehwf-psj) · 
+[**🚀 Abrir repositorio**](https://github.com/Leandrouno/estructura_de_datos)
+[**🚀 Abrir repositorio**](https://github.com/Leandrouno/estructura_de_datos)
 
 </div>
 
