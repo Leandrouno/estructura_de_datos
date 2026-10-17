@@ -14,7 +14,7 @@
 
 [**📚 Aula virtual y grabaciones**](https://udemmvirtual.edu.ar/course/view.php?id=14541) · [**🎥 Ingresar a Meet**](https://meet.google.com/ehg-ehwf-psj) · 
 [**🚀 Abrir repositorio**](https://github.com/Leandrouno/estructura_de_datos)
-[**🚀 Notion**](https://app.notion.com/p/Estructura-de-datos-Clases-1d254df71eff8365bbbb811e922b2245)
+[**📓 Notion**](https://app.notion.com/p/Estructura-de-datos-Clases-1d254df71eff8365bbbb811e922b2245)
 
 </div>
 
