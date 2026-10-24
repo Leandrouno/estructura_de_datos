@@ -19,7 +19,8 @@ int main(){
     cola.primero =nullptr;
     cola.ultimo =nullptr;
 
-    Nodo
+    Nodo*nuevo;
+    Nodo*nuevo;
 
     return 0;
 }
