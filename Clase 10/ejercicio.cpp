@@ -31,7 +31,7 @@ int main(){
     nuevo = new Nodo;
     nuevo->dato = 20;
     nuevo->siguiente = nullptr;
-    cola.primero = nuevo;
+    cola.primero = cola;
     cola.ultimo = nuevo;
 
     return 0;
