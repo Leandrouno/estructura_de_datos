@@ -15,7 +15,7 @@ struct estructCola{
 
 int main(){
     int a;
-    structCola cola = N
+    structCola cola = new structCola;
 
     return 0;
 }
