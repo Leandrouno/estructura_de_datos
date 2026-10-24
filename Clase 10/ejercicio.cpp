@@ -26,7 +26,7 @@ int main(){
     nuevo->dato = 10;
     nuevo->siguiente = nullptr;
     cola.primero = nuevo;
-    cola.primero = nuevo;
+    cola.ultimo = nuevo;
 
     return 0;
 }
