@@ -1,6 +1,5 @@
 #include <iostream>
-
-
+#include <stack>
 using namespace std;
 
 
@@ -9,8 +8,6 @@ struct Nodo
     int dato;
     Nodo *siguiente;
 };
-
-
 struct structcola
 {
     Nodo *primero;
@@ -19,8 +16,7 @@ struct structcola
 int main()
 {
     int a;
-    // queue<int> cola;
-    structcola cola; // Creo la estructura que representa la cola
+    structcola cola;
     cola.primero = nullptr;
     cola.ultimo = nullptr;
 
@@ -28,43 +24,67 @@ int main()
     Nodo *nuevo;
 
 
-    // Creo un puntero auxiliar para recorrer la cola
     Nodo *Aux;
 
 
-    // cola.push(10);
-    nuevo = new Nodo; // Asigno un espacio de memoria
+    nuevo = new Nodo;
     nuevo->dato = 10;
     nuevo->siguiente = nullptr;
-
-
     cola.primero = nuevo;
     cola.ultimo = nuevo;
 
 
-    // cola.push(20);
-    nuevo = new Nodo; // Asigno un espacio de memoria
+    nuevo = new Nodo;
     nuevo->dato = 20;
     nuevo->siguiente = nullptr;
     cola.ultimo->siguiente = nuevo;
     cola.ultimo = nuevo;
-    // cola.push(30);
-    nuevo = new Nodo; // Asigno un espacio de memoria
+
+
+    nuevo = new Nodo;
     nuevo->dato = 30;
     nuevo->siguiente = nullptr;
-    cola.ultimo->siguiente = nuevo; // al segundo nodo le asigno el tercero,el nuevo nodo es el siguiente del ultimo nodo
+    cola.ultimo->siguiente = nuevo;
     cola.ultimo = nuevo;
 
 
-    // Mostramos lo que hay en la cola
+    nuevo = new Nodo;
+    nuevo->dato = 40;
+    nuevo->siguiente = nullptr;
+    cola.ultimo->siguiente = nuevo;
+    cola.ultimo = nuevo;
+
+
     Aux = cola.primero;
-    while (Aux != nullptr) // Mientras el puntero Aux no sea nulo, es decir, mientras haya nodos en la cola
+    while (Aux != nullptr)
     {
-        cout << Aux->dato << endl; // Muestro el dato del nodo al que apunta el puntero Aux
-        Aux = Aux->siguiente;      // Asigno el puntero Aux al puntero siguiente del nodo al que apunta el puntero Aux, es decir, al siguiente nodo de la cola
+        cout << Aux->dato << endl;
+        Aux = Aux->siguiente;
     }
+
+
+    cout << "--------------------" << endl;
+
+
+    Aux = cola.primero;
+    cola.primero = cola.primero->siguiente;
+    delete Aux;
+    Aux = cola.primero;
+    while (Aux != nullptr)
+    {
+        cout << Aux->dato << endl;
+        Aux = Aux->siguiente;
+    }
+
+
+    cout << "--------------------" << endl;
+
+
+      cout << cola.primero->dato << endl;
+
+
+    cout << cola.ultimo->dato << endl;
+
+
     return 0;
 }
-
-
-
