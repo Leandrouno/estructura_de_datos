@@ -19,7 +19,7 @@ struct estructCola{
 
 int main(){
     int a;
-    estructCola cola = new estructCola;
+    estructCola cola = estructCola;
     cola.primero = nullptr;
     cola.ultimo = nullptr;
 
