@@ -22,5 +22,7 @@ int main(){
     Nodo*nuevo;
     Nodo*Aux;
 
+    nuevo
+
     return 0;
 }
