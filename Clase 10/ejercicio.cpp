@@ -14,20 +14,8 @@ struct estructCola{
 };
 
 int main(){
-    Nodo* pila = nullptr;
-
-    Nodo* nuevo;
-
-    Nodo* nuevo = new Nodo;
-    nuevo->dato = 10;
-    nuevo->siguiente = pila;
-    pila = nuevo;
-
-    Nodo* nuevo = new Nodo;
-    nuevo->dato = 20;
-    nuevo->siguiente = pila;
-    pila = nuevo;
-
+    int a;
+    struc
 
     return 0;
 }
