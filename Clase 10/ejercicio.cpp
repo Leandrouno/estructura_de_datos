@@ -23,7 +23,8 @@ int main(){
     Nodo*Aux;
 
     nuevo = new Nodo;
-    nuevo->
+    nuevo->dato = 10;
+    nuevo->siguiente = 10;
 
     return 0;
 }
