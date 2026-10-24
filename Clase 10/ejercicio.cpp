@@ -8,7 +8,7 @@ struct Nodo{
     Nodo* siguiente;
 };
 
-struct estrucCola{
+struct estructCola{
     int dato;
     Nodo* siguiente;
 };
