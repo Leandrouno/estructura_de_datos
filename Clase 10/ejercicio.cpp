@@ -15,7 +15,8 @@ struct estructCola{
 
 int main(){
     int a;
-    estructCola cola = new structCola;
+    estructCola cola = new estructCola;
+    cola.primero
 
     return 0;
 }
