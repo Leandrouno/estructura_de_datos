@@ -20,7 +20,7 @@ int main(){
     cola.ultimo =nullptr;
 
     Nodo*nuevo;
-    Nodo*nuevo;
+    Nodo*Aux;
 
     return 0;
 }
