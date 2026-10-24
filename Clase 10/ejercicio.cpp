@@ -24,7 +24,9 @@ int main(){
 
     nuevo = new Nodo;
     nuevo->dato = 10;
-    nuevo->siguiente = 10;
+    nuevo->siguiente = nullptr;
+    cola.primero = nuevo;
+    cola.primero = nuevo;
 
     return 0;
 }
