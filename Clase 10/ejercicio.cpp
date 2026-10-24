@@ -10,7 +10,7 @@ struct Nodo{
 
 struct estructCola{
     int dato;
-    Nodo* siguiente;
+    Nodo* primero;
 };
 
 int main(){
