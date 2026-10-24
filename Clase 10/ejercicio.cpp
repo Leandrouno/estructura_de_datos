@@ -8,6 +8,11 @@ struct Nodo{
     Nodo* siguiente;
 };
 
+struct estructuraCola{
+    int dato;
+    Nodo* siguiente;
+};
+
 int main(){
     Nodo* pila = nullptr;
 
