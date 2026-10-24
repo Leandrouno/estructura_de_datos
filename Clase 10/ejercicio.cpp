@@ -9,8 +9,8 @@ struct Nodo{
 };
 
 struct estructCola{
-    int dato;
     Nodo* primero;
+    Nodo* ultimo;
 };
 
 int main(){
