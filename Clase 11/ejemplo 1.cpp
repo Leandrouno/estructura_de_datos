@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 struct Nodo
 {
     int dato;
@@ -14,18 +17,16 @@ struct structLista
 int main()
 {
     structLista lista;
-
     lista.primero = nullptr;
     lista.ultimo = nullptr;
 
     Nodo *nuevo;
-    // Creo un puntero auxiliar
+
     Nodo *Aux;
+    // Creo un puntero auxiliar
 
-
-    // Agrego el primer nodo
     // lista.push_front(10);
-    nuevo = new Nodo;
+    nuevo = new Nodo; // Asigno un espacio de memoria
     nuevo->dato = 10;
     nuevo->anterior = nullptr;
     nuevo->siguiente = nullptr;
@@ -33,12 +34,22 @@ int main()
     lista.ultimo = nuevo;
 
     // lista.push_back(20);
-    nuevo = new Nodo;
+    nuevo = new Nodo; // Asigno un nuevo espacio de memoria
     nuevo->dato = 20;
-    nuevo->anterior = nullptr;
-    nuevo->siguiente = lista.primero;
-    lista.primero = nuevo;
-    lista.ultimo = nuevo; 
+    nuevo->anterior = lista.ultimo; 
+    nuevo->siguiente = nullptr;
+    lista.ultimo->siguiente = nuevo;
+    lista.ultimo = nuevo;
+
+    Aux = lista.primero;
+    while (Aux != nullptr)
+    {
+        cout << Aux->dato << endl;
+        Aux = Aux->siguiente;
+    }
+
+    
+
 
     return 0;
 }
