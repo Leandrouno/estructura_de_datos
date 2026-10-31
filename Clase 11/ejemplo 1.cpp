@@ -48,8 +48,5 @@ int main()
         Aux = Aux->siguiente;
     }
 
-    
-
-
     return 0;
 }
